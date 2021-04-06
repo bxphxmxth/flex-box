@@ -1,0 +1,21 @@
+.main{
+    border: brown solid 3px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.secondary{
+    border: tomato 3px solid;
+    width: 75%;
+    display: flex;
+
+    /*pour bouger sur l'axe horizontal*/
+    justify-content: center;
+    /*pour bouger sur l'axe vertical*/
+    align-items: center;
+}
+.tertiary{
+    border: chartreuse solid 3px;
+    height: 150px;
+    width: 200px;
+}
