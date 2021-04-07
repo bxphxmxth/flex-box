@@ -1,21 +1,66 @@
 .main{
-    border: brown solid 3px;
+    border: black solid 5px;
     height: 500px;
     display: flex;
     justify-content: center;
+    background-color: rgb(201, 141, 141);
+    
 }
 .secondary{
-    border: tomato 3px solid;
+    border:black 5px solid;
     width: 75%;
     display: flex;
+    background-color: rgb(172, 172, 248);
 
     /*pour bouger sur l'axe horizontal*/
     justify-content: center;
     /*pour bouger sur l'axe vertical*/
     align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
 }
 .tertiary{
-    border: chartreuse solid 3px;
+    border: rgb(0, 0, 0) solid 3px;
+    background-color: rgb(188, 228, 148);
     height: 150px;
     width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main>:first-child>:first-child{
+    color: rgb(235, 4, 4);
+    font-size: 100px;
+    font-family: fantasy;
+}
+
+.main>:first-child>:nth-child(2){
+    color: darkcyan;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main>:first-child>:last-child{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-family: cursive;
+}
+
+
+p{
+    text-align: center;
+    font-size: 30px;
+}
+
+#kanji{
+
+    display: flex;
+    /* border: red solid 5px; */
+    width: 75%;
+    justify-content: space-around;
+
+
 }
